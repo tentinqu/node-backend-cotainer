@@ -59,12 +59,8 @@ docker rmi scotch-api
 ```
 ## Optional: Add Your Own MongoDB
 To make the API fully functional:
-
-Set up a local MongoDB instance or container
-
-Update the MongoDB connection string in server.js
-
-Rebuild and rerun the Docker container
+- Set up a local MongoDB instance or container
+- Set up Trivy to scan for vulnerabilites in the final image. 
 
 ## Credits
 Based on the Scotch.io Node API tutorial
